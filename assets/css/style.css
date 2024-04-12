@@ -338,7 +338,7 @@ a:hover {
     top: 2.6875rem; }
 
 .bg-02 {
-  padding: 50px 0px;
+  padding: 30px 0px;
   position: relative;
   overflow: hidden; }
   .bg-02 .cal-box {
@@ -364,20 +364,21 @@ a:hover {
         color: #565656; }
 
 .bg-03 {
-  padding: 50px 0px;
+  padding: 30px 0px;
   position: relative;
-  background: #f6f9fe;
+  background: #f6f9fe;    
+  display: flex;
   overflow: hidden; }
+
   .bg-03 .team-main-box {
     position: relative;
-    margin: 20px 0px;
     transition: 0.2s;
-    padding: 20px 0px; }
+    padding: 10px 10px; }
     .bg-03 .team-main-box .team-content-box {
       position: relative;
       width: 85%;
       background: #f6f9fe;
-      margin: -40px auto 0px auto;
+      margin:-40px auto 0px auto;
       display: block;
       padding: 10px;
       text-align: center;
@@ -396,7 +397,7 @@ a:hover {
       width: 100%; }
 
 .bg-04 {
-  padding: 50px 0px;
+  padding: 30px 0px;
   position: relative;
   overflow: hidden; }
   .bg-04 .blog-sub {
@@ -603,17 +604,17 @@ footer {
         cursor: pointer;
         transition: 0.7s; }
         footer ._kl_ds_we .head-footer ul li:hover {
-          color: #ddd;
+          color: #f80a0a;
           letter-spacing: 1px; }
           footer ._kl_ds_we .head-footer ul li:hover i {
-            color: #ddd; }
+            color: #f80a0a; }
         footer ._kl_ds_we .head-footer ul li i {
           padding-right: 10px;
           color: #fff; }
       footer ._kl_ds_we .head-footer p {
         font-size: 16px;
         line-height: 25px;
-        color: #fff;
+        color: #efe2e2;
         margin: 10px 0px; }
       footer ._kl_ds_we .head-footer ol li {
         display: inline-block;
@@ -629,7 +630,7 @@ footer {
           position: absolute;
           content: "";
           width: 50px;
-          background: #fff;
+          background: #e31111;
           height: 2px;
           bottom: 0;
           left: 0; }
